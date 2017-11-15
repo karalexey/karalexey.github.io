@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 196, 0);
+    font-family: 'Audiowide', cursive;
+}
+
+.canvas {
+    width: 40%;
+    margin: 0px auto;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.incanvas {
+    width: 100%;
+}
+
+.insquare {
+    /*min-height: 40px;*/
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+    border: 0px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-family: 'Audiowide', cursive;
+    font-size: 18pt;
+    resize: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.insquare:focus {
+    border-bottom: 2px solid rgb(153, 153, 153);
+}
+
+.canvas > div > button {
+    background: rgb(177, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+    font-family: 'Audiowide', cursive;
+    font-size: 18pt;
+}
+.item_of_list {
+}
+
+.item {
+    font-size: 18pt;
+    padding: 20px 5px;
+    border-top: 1px solid rgb(85, 85, 85);
+}
+img {
+    margin: 100px;
+    position: relative;
+}
+iframe {
+    position: absolute;
+    left: 138px;
+    top: 137px;
+    z-index: 1;
+}
